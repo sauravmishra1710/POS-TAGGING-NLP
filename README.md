@@ -13,3 +13,8 @@ HMMs and Viterbi algorithm for POS tagging.
   
   - List down at least three cases from the sample test file (i.e. unknown word-tag pairs) which were incorrectly tagged by the 
   original Viterbi POS tagger and got corrected after your modifications.
+
+  ## saving ml model to pkl
+   after devloping a model for pos tagging we can save that model to pkl file so we do not need to perform testing again this saves our time 
+
+  Save the model to pkl file by using dill 
